@@ -1,0 +1,25 @@
+touches:
+    Pour le joueur 1 qui se situe en haut:
+        -'a' pour pouvoir le deplacer a gauche
+        -'s' pour pouvoir le deplacer a droite
+    Pour le joueur 2 qui se situe en bas:
+        -'k' pour pouvoir le deplacer a gauche
+        -'l' pour pouvoir le deplacer a droite
+    pour deplacer le ballon:
+        -direction haut pour un deplacement vertical
+        -direction gauche pour un deplacement vers la gauche
+        -direction droite pour un deplacement vers la droite
+
+classes et packages:
+    -package main:
+        -Main.java: pour l'affichage
+    -package front:
+        -MyFrame.java: fenetre
+        -Balle.java: la Balle
+        -PLayer.java: joueur
+        -Table_de_jeu.java: panel qui contient paint
+    -package listener:
+        -Clavier.java: listener pour les deplacements ds deux joueurs (KeyListener)
+        -Envoyer.java: listener pour les deplacements de la Balle (KeyListener)
+
+Pour pouvoir lancer le jeu, cliquez sur Lancer.bat
